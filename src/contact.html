@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mon formulaire de contact</title>
+        <link rel="stylesheet" type="text/css" href="portfolio_website/assets/css/main.css">
+        <meta name="viewport" content="width=device-width" initial-scale="1">
+        <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+        <link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="../assets/css/media.css">
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+        <link rel="stylesheet" type="texte/js" href="../scripts/media.js">
+   </head>
+   <body>
+    <nav class="nav-menu">
+      <ul>
+        <li >
+          <a class="active" href="../index.html">Home</a>	
+          </li> 
+          <li>
+            <a  href="projects.html">Projects</a>	
+          </li> 
+          <li>
+            <a href="about.html">Contact</a>	
+          </li> 
+          <li>
+            <a href="contact.html">About</a>	
+          </li> 
+      </ul>  
+      </nav><br/><br/>
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-title">
+                  <p>Pour me contactez ou avoir plus de renseignements</p>  
+                </div>
+                <div class="row" data-aos="fade-in">
+                  <div class="col-lg-5 d-flex align-items-stretch">
+                     <div class="info">
+                       <div class="address">
+                         <i class="icofont-google-map"></i>
+                         <h4>Location:</h4>
+                         <p>Calavi, Zogbadjè, Bénin</p>  
+                       </div>
+                       <div class="email">
+                         <i class="icofont-envelope" ></i>
+                         <h4>Email:</h4>  
+                         <p>christelledoleffo@gmail.com</p>
+                       </div>
+                       <div class="phone">
+                         <i class="icofont-phone"></i> 
+                         <h4>Call</h4>
+                         <p>+229 95 19 52 17</p> 
+                       </div>
+                      </div>  
+                    </div> 
+                 </div>  
+                       <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                           <form  method="post" class="php-email-form">
+                               <div class="form-row">
+                                <div class="form-group col-md-6">
+                                  <label for="name">Your name</label> 
+                                  <input type="text" name="name" id="name" class="form-control"/>
+                                  <div class="validate"></div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                 <label for="email">Your email</label> 
+                                 <input type="email" name="email" id="email" class="form-control"/>
+                                 <div class="validate"></div>
+                               </div> 
+                               <div class="form-group">
+                                 <label for="name">Message</label> 
+                                 <textarea name="message" id="message" class="form-control" rows="10" data-rule="required"/></textarea>>
+                                 <div class="validate"></div>
+                               </div> 
+                               <div class="text-center"><button onclick="sendmail()" type="submit">Send Message</button></div> 
+                               </div>
+                           </form>
+                       
+                </div>
+            </div>	 
+          </section>
+        </div>	 
+      </section>
+    </body>   
+
+
+</html>
